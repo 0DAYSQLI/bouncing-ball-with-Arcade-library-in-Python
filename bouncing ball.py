@@ -49,3 +49,4 @@ class GameView(arcade.View):
 game = GameView()
 window.show_view(game)
 arcade.run()
+
