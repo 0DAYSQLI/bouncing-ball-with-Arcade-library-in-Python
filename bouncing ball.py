@@ -6,7 +6,8 @@ except ImportError:
     os.system("pip install arcade==3.0.0")
     import arcade
 
-window = arcade.Window(title="My Arcade Game", width=1000, height=1000,resizable=True,fullscreen=True)
+window = arcade.Window(title="Bouncing Ball!", width=800, height=700,resizable=True)
+window.center_window()
 
 class GameView(arcade.View):
     def __init__(self) -> None:
